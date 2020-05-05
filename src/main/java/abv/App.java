@@ -16,6 +16,9 @@ public class App
 
         System.out.print("The Output of Subtraction is : ");
         System.out.println(subtraction(a,b));
+
+        System.out.print("The Output of Multiplication is : ");
+        System.out.println(subtraction(a,b));
     }
 
     public static Integer addition(Integer a,Integer b){
@@ -23,5 +26,8 @@ public class App
     }
     public static Integer subtraction(Integer a,Integer b){
         return  a-b;
+    }
+    public static Integer multiplication(Integer a,Integer b){
+        return a*b;
     }
 }
